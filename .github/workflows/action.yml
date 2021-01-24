@@ -5,7 +5,7 @@ name: 网易云飞升
 
 on:
   schedule:
-    - cron: "5 8,16 * * *"
+    - cron: "15 0 * * *"
   push:
     branches: [master]
   pull_request:
